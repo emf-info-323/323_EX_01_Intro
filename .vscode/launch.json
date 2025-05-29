@@ -7,14 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Exercice 01a",
-            "file": "${workspaceFolder}/src/ex01a/ex01a.html"
-        },
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Exercice 01b",
-            "file": "${workspaceFolder}/src/ex01b/ex01b.html"
+            "name": "Exercice 01",
+            "file": "${workspaceFolder}/src/ex01.html"
         }
     ]
 }
