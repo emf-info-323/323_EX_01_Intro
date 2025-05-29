@@ -12,7 +12,7 @@
 Commencez par prendre connaissance des fichiers dans le dossier [src/ex01a](src/ex01a). Votre mission, si toutefois vous l'acceptez, sera de coder cette méthode :
 
 ```js
-function convertirCSVEnObjets(contenuCSV) { ... }
+function convertirCSVEnObjet(contenuCSV) { ... }
 ````
 
 >[!WARNING]
@@ -33,7 +33,7 @@ De plus les empereurs devront :
 >[!TIP]
 >Vous aurez besoin de la méthode[`split()`](Javascript-Cheat-Sheet/Javascript-Cheat-Sheet.md#split---un-ciseau-qui-coupe-une-chaîne-là-où-un-caractère-apparaît-et-produit-un-tableau) pour réaliser cela. Il faudra "couper" les lignes (`'\n'`) et ensuite les colonnes (`';'`).
 
-Voici ce à quoi votre méthode devrait produire :
+Voici ce que votre méthode devrait produire :
 
 ```json
 {

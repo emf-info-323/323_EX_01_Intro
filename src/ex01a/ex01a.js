@@ -12,10 +12,15 @@ function initialisation() {
 
 function actionStart() {
     console.log("actionStart() en cours...");
-    convertirCSVEnObjets(DATA);
+
+    const jsonData = convertirCSVEnObjet(DATA);
+
+    // Afficher le résultat final de notre lecture et transformation
+    const container = document.getElementById("output");
+    container.innerHTML = JSON.stringify(jsonData, null, 3);
 }
 
-function convertirCSVEnObjets(contenuCSV) {
+function convertirCSVEnObjet(contenuCSV) {
 
     // C'est là-dedans qu'on veut lire et extraire ces données CSV dans contenuCSV
     let jsonData = {};
@@ -44,8 +49,6 @@ function convertirCSVEnObjets(contenuCSV) {
     // structurées comme souhaité.
     //
 
-    // Afficher le résultat final de notre lecture et transformation
-    const container = document.getElementById("output");
-    container.innerHTML = JSON.stringify(jsonData, null, 3);
+    return jsonData;
 }
 
