@@ -1,4 +1,6 @@
-# Module 323 - Exercice 01
+<h1>Module 323 - Programmer de manière fonctionnelle</h1>
+
+# Exercice 01
 
 ## Objectifs
 
