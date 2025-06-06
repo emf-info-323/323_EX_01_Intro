@@ -1,6 +1,6 @@
 <h1><code>Module 323</code> - Programmer de manière fonctionnelle</h1>
 
-# 😅 Exercice 01
+# 😅 Exercice 01 - Introduction
 
 ## 🕒 Durée
 
