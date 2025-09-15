@@ -23,7 +23,7 @@ function convertirCSVEnObjet(contenuCSV) { ... }
 
 >[!WARNING]
 >**Le programme devra être purement procédural** ❗  
->Vous n'avez pas le droit d'utiliser des méthodes programmation fonctionnelle ⚠️ **Vous ne pouvez pas utiliser les fonctions map, reduce, sort, etc. lié aux tableaux Javascript** ⚠️
+>Vous n'avez pas le droit d'utiliser des méthodes programmation fonctionnelle ⚠️ **Vous ne pouvez pas utiliser les fonctions map, reduce, sort, etc. liées aux tableaux Javascript** ⚠️
 
 L'objet produit doit contenir les empereurs romains, avec uniquement les informations suivantes pour chaque empereur :
 
